@@ -1,0 +1,7 @@
+.hhh::before{
+    content: '';
+    border: 20px;
+}
+.hhh{
+    padding: auto;
+}

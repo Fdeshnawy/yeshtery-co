@@ -1,0 +1,20 @@
+.div-btn{
+    display: flex;
+    border: 1px solid gainsboro;
+    justify-content: space-around;
+    background-color: #F5F5F5;
+    width: 35%;
+    border-radius: 27px;
+    align-items: center;
+
+}
+.plus{
+    padding: 3px 10px;
+    background-color: var(--primary);
+    border-radius: 50%;
+    margin: 8px;
+    border: transparent;
+
+    left: 0%;
+    top: 2px;
+}

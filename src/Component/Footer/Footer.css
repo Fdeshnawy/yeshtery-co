@@ -1,0 +1,34 @@
+
+.foot-p{
+    border-right: 1px solid gainsboro;
+    margin-right: 20px;
+}
+input{
+    border-radius: 20px !important;
+    position: relative;
+    height: 50px;
+}
+.btbutton{
+    position: relative;
+    top: -42px;
+    width: 23%;
+    left: 302px;
+    height: 35px;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    background-color: var(--primary) !important;
+color: black !important;
+border: transparent !important;}
+ul{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+    padding: 10px 0;
+    color: white;
+    font-weight: bold;
+}
+.footer{
+    background-color: #3c3c3b;
+    color: white;
+}

@@ -1,0 +1,52 @@
+.card{
+    margin: 20px;
+    border: none !important;
+
+    border-radius: 7px !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.p-color{
+    color: var(--secodary);
+    font-weight: bold;
+    font-size: 15px;
+}
+.cardImg{
+    border: 10px;
+    padding:12px;
+
+    border-radius: 7px !important;
+   
+}
+.cardBod{
+    text-align: left !important;
+    
+}
+.strike{
+    text-decoration: line-through;
+    color: gainsboro;
+    font-weight: bold;
+    margin: 0;
+}
+.desc{
+font-size: 16px !important;
+font-weight: bold !important;
+}
+.foot{
+    text-align: center !important;
+}
+.span{
+    font-weight: bold;
+}
+.part-title h2{
+    color: var(--secodary);
+    text-align: left !important;
+}
+.part-title h3{
+    color: gray;
+    text-align: left !important;
+    font-weight: 400 !important;
+}
+.part-title {
+    padding: 5% 0;
+}

@@ -1,23 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Breadcrumbs from './Component/Header/Breadcrumbs';
+import Header from './Component/Header/Header';
+import brandLogo from './images/adidas-brand.png'
+import show from './images/show.jpeg'
+import first from './images/1.jpeg'
+import sec from './images/2.jpeg'
+import './App.css'
+import ItemsChecked from './Component/Items/ItemsChecked';
+import showImg from './images/show-removebg-preview.png';
+import Similar from './Component/Items/Similar';
+import Belownav from './Component/Header/Belownav';
+import data from './data';
+import footer from './images/brand-logo-yellow.svg'
+import Footer from './Component/Footer/Footer';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   
+      <Header logo={brandLogo}/>
+      <Belownav />
+      <Breadcrumbs />
+      <hr />
+      <ItemsChecked 
+      showImg={showImg}
+      img={show}
+      logo={brandLogo}
+      first={first}
+      sec={sec}
+      />
+    <Similar 
+
+    data={data}
+    />
+    <Footer footer={footer}/>
+
     </div>
   );
 }

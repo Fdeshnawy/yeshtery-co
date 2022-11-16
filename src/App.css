@@ -1,6 +1,13 @@
+:root {
+  --primary: #FFF103;
+  --secodary: #542e90;
+}
+
 .App {
   text-align: center;
+
 }
+
 
 .App-logo {
   height: 40vmin;

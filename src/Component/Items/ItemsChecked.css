@@ -1,0 +1,108 @@
+.img-show img {
+    width: 80%;
+    background-color: aliceblue;
+}
+.m-mm{
+    margin: 0 10%;
+}
+.item-desc {
+    text-align: left !important;
+}
+
+.item-desc img {
+    width: 20%;
+
+}
+
+.item-desc small {
+    color: gray;
+
+}
+
+.rates {
+    color: #6E6E6D;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+h2 {
+    color: var(--secodary);
+
+}
+
+.perc {
+    padding: 1%;
+    background-color: var(--primary);
+    border-radius: 2px;
+
+}
+
+.strike {
+    margin: 0 5%;
+    text-decoration: line-through;
+}
+
+.sizes {
+    display: flex;
+
+}
+
+.sizes small {
+    font-size: 7px;
+    font-weight: bold;
+    color: var(--secodary);
+
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid;
+    margin: 2px;
+    border-color: gainsboro;
+    ;
+
+}
+
+.sizes small:hover {
+    background-color: gainsboro;
+}
+
+.color-item img {
+    width: 15%;
+    border-radius: 50%;
+    margin: 0 2%;
+
+}
+
+.color-item img:hover {
+    background-color: var(--secodary);
+}
+
+.carousel {
+    margin-top: 5%;
+}
+
+.carousel img {
+    margin: 2px;
+    border: 1px solid gray;
+}
+
+.carrt {
+    background-color: var(--secodary);
+    border: transparent;
+    border-radius: 27px;
+    color: white;
+
+    padding: 13px;
+    width: 33%;
+    font-weight: bold;
+    margin-right: 10%;
+}
+
+.carrt2 {
+    background-color: var(--primary);
+    border: transparent;
+    border-radius: 27px;
+    color: black;
+    padding: 13px;
+    width: 33%;
+    font-weight: bold;
+}

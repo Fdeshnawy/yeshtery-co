@@ -1,0 +1,33 @@
+.cartCtr{
+    position: relative;
+
+}
+.cartCtr::before{
+    content: '';
+    color:var(--primary);
+    border: 1px solid;
+}
+
+.cart{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+margin: 6% 0;
+padding: 10px;
+border-radius: 20px;
+}
+.cart img{
+    width: 30%;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.cart h5{
+   font-size: 14px !important;
+   font-weight: bold;
+}
+button{
+    border: transparent;
+    background-color: var(--primary);
+    width: 50%;
+    border-radius: 50px !important;
+ 
+}
