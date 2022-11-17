@@ -1,4 +1,6 @@
-
+.footer{
+    padding: 4% 10%;
+}
 .foot-p{
     border-right: 1px solid gainsboro;
     margin-right: 20px;
@@ -12,7 +14,7 @@ input{
     position: relative;
     top: -42px;
     width: 23%;
-    left: 302px;
+    left: 290px;
     height: 35px;
     font-size: 14px !important;
     font-weight: bold !important;
